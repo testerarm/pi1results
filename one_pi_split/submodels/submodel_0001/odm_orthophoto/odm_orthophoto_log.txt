@@ -1,0 +1,45 @@
+/home/pi/test/ODM/build/bin/odm_orthophoto_log.txt
+
+Arguments given
+-inputFiles
+/home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_texturing_25d/odm_textured_model_geo.obj
+-logFile
+/home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_log.txt
+-outputFile
+/home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_render.tif
+-resolution
+3.33333333333
+-outputCornerFile
+/home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_corners.txt
+
+Log file path was set to: /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_log.txt
+Writing output to: /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_render.tif
+Resolution count was set to: 3.33333pixels/meter
+Writing corners to: /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_corners.txt
+
+Reading mesh file... /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_texturing_25d/odm_textured_model_geo.obj
+Mesh file read.
+
+Set boundary to contain entire model.
+Boundary points:
+Point 1: -22.6202 -36.9421
+Point 2: -22.6202 40.87
+Point 3: 60.4181 40.87
+Point 4: 60.4181 -36.9421
+
+Model bounds x : -22.6202 -> 60.4181
+Model bounds y : -36.9421 -> 40.87
+Model area : 6461.39m2
+Model resolution, width x height : 277x260
+Translating and scaling mesh...
+.. mesh translated and scaled.
+
+Rendering the ortho photo...
+Texture channels: 3
+Texture depth: 8bit
+Material 0 rendered.
+... model rendered
+
+Writing ortho photo to /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_render.tif
+Writing corner coordinates to /home/pi/test/ODM/datasets/drone_dataset_brighton_beach/submodels/submodel_0001/odm_orthophoto/odm_orthophoto_corners.txt
+Orthophoto generation done.

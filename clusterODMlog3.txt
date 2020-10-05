@@ -1,0 +1,316 @@
+Script started on 2020-10-04 23:12:01-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="191" LINES="24"]
+root@raspberrypi:/home/pi/test/ClusterODM# s[Kno[K[Ksudo node index.js 
+warn: Running in debug mode
+info: ClusterODM 1.4.4 started with PID 31700
+info: Starting admin CLI on 8080
+warn: No admin CLI password specified, make sure port 8080 is secured
+info: Starting admin web interface on 10000
+warn: No admin password specified, make sure port 10000 is secured
+info: Cloud: LocalCloudProvider
+info: Loaded 1 nodes
+warn: Cannot update info for 192.168.1.56:3000: connect ECONNREFUSED 192.168.1.56:3000
+info: Loaded 24 routes
+info: Starting http proxy on 3000
+^Cinfo: Saved nodes to disk
+info: Saved routes to disk
+info: Bye!
+root@raspberrypi:/home/pi/test/ClusterODM# sudo node index.js 
+warn: Running in debug mode
+info: ClusterODM 1.4.4 started with PID 31720
+info: Starting admin CLI on 8080
+warn: No admin CLI password specified, make sure port 8080 is secured
+info: Starting admin web interface on 10000
+warn: No admin password specified, make sure port 10000 is secured
+info: Cloud: LocalCloudProvider
+info: Loaded 1 nodes
+info: Loaded 24 routes
+info: Starting http proxy on 3000
+&& In Req Listener  /info  Sun Oct 04 2020 23:13:10 GMT-0400 (Eastern Daylight Time) and Milliseconds: 493
+&& In Req Listener  /info  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 532
+&& In Req Listener  /info  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 571
+&& In Req Listener  /task/new/init  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 582
+&& After In Req Listener  /task/new/init  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 589
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 751
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 752
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 777
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 778
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 778
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 779
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 807
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 808
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 868
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 869
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 870
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 871
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 872
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 872
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 874
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 875
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 875
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 876
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 877
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 878
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 879
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 880
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 910
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 911
+&& In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 911
+&& After In Req Listener  /task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 912
+&& In Req Listener  /task/new/commit/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 946
+&& After In Req Listener  /task/new/commit/bf0e03da-07af-4d1a-af33-316f41e995ab  Sun Oct 04 2020 23:13:16 GMT-0400 (Eastern Daylight Time) and Milliseconds: 947
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/init?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 41
+right before curl perform in task new js  http://192.168.1.56:3000/task/new/init?token=
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 48
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 50
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 58
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 59
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 94
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 94
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 94
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 95
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 95
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 95
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 96
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 96
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 96
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 97
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 97
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 97
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 98
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 98
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 98
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 99
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 99
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 99
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 99
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 100
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 100
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 100
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 101
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 101
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 101
+&& CURL perform http://192.168.1.56:3000/task/new/upload/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 102
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/commit/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 200
+&& App task commit before curl perform http://192.168.1.56:3000/task/new/commit/bf0e03da-07af-4d1a-af33-316f41e995ab?token=  Sun Oct 04 2020 23:13:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 201
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 68
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 75
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:23 GMT-0400 (Eastern Daylight Time) and Milliseconds: 95
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:23 GMT-0400 (Eastern Daylight Time) and Milliseconds: 96
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:26 GMT-0400 (Eastern Daylight Time) and Milliseconds: 113
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:26 GMT-0400 (Eastern Daylight Time) and Milliseconds: 114
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:29 GMT-0400 (Eastern Daylight Time) and Milliseconds: 132
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:29 GMT-0400 (Eastern Daylight Time) and Milliseconds: 133
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:32 GMT-0400 (Eastern Daylight Time) and Milliseconds: 151
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:32 GMT-0400 (Eastern Daylight Time) and Milliseconds: 153
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:35 GMT-0400 (Eastern Daylight Time) and Milliseconds: 167
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:35 GMT-0400 (Eastern Daylight Time) and Milliseconds: 168
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:38 GMT-0400 (Eastern Daylight Time) and Milliseconds: 182
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:38 GMT-0400 (Eastern Daylight Time) and Milliseconds: 184
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:41 GMT-0400 (Eastern Daylight Time) and Milliseconds: 197
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:41 GMT-0400 (Eastern Daylight Time) and Milliseconds: 199
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:44 GMT-0400 (Eastern Daylight Time) and Milliseconds: 216
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:44 GMT-0400 (Eastern Daylight Time) and Milliseconds: 218
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:47 GMT-0400 (Eastern Daylight Time) and Milliseconds: 234
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:47 GMT-0400 (Eastern Daylight Time) and Milliseconds: 235
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 249
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 251
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:53 GMT-0400 (Eastern Daylight Time) and Milliseconds: 275
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:53 GMT-0400 (Eastern Daylight Time) and Milliseconds: 277
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:56 GMT-0400 (Eastern Daylight Time) and Milliseconds: 297
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:56 GMT-0400 (Eastern Daylight Time) and Milliseconds: 298
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:59 GMT-0400 (Eastern Daylight Time) and Milliseconds: 315
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:13:59 GMT-0400 (Eastern Daylight Time) and Milliseconds: 316
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:02 GMT-0400 (Eastern Daylight Time) and Milliseconds: 331
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:02 GMT-0400 (Eastern Daylight Time) and Milliseconds: 332
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:05 GMT-0400 (Eastern Daylight Time) and Milliseconds: 351
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:05 GMT-0400 (Eastern Daylight Time) and Milliseconds: 352
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:08 GMT-0400 (Eastern Daylight Time) and Milliseconds: 366
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:08 GMT-0400 (Eastern Daylight Time) and Milliseconds: 367
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:11 GMT-0400 (Eastern Daylight Time) and Milliseconds: 385
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:11 GMT-0400 (Eastern Daylight Time) and Milliseconds: 387
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 408
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 411
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 430
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/info  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 432
+&& In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/download/all.zip  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 453
+&& After In Req Listener  /task/bf0e03da-07af-4d1a-af33-316f41e995ab/download/all.zip  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 456
+&& In Req Listener  /task/remove  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 729
+&& After In Req Listener  /task/remove  Sun Oct 04 2020 23:14:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 731
+&& In Req Listener  /info  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 294
+&& In Req Listener  /task/new/init  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 302
+&& After In Req Listener  /task/new/init  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 304
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 349
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 350
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 361
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 362
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 370
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 371
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 378
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 379
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 380
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 381
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 389
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 390
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 405
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 414
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 439
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 440
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 441
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 441
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 442
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 443
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 481
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 482
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 497
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 499
+&& In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 500
+&& After In Req Listener  /task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 506
+&& In Req Listener  /task/new/commit/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 553
+&& After In Req Listener  /task/new/commit/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 556
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/init?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 662
+right before curl perform in task new js  http://192.168.1.56:3000/task/new/init?token=
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 668
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 669
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 677
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 677
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 678
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 678
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 678
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 679
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 679
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 680
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 680
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 680
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 681
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 681
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 681
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 681
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 682
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 682
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 682
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 683
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 683
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 683
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 683
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 684
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 684
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 684
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 685
+&& CURL perform http://192.168.1.56:3000/task/new/upload/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 685
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 689
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 690
+&& In a new Curl Instance  http://192.168.1.56:3000/task/new/commit/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 798
+&& App task commit before curl perform http://192.168.1.56:3000/task/new/commit/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1?token=  Sun Oct 04 2020 23:14:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 798
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 697
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 699
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:23 GMT-0400 (Eastern Daylight Time) and Milliseconds: 714
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:23 GMT-0400 (Eastern Daylight Time) and Milliseconds: 715
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:26 GMT-0400 (Eastern Daylight Time) and Milliseconds: 732
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:26 GMT-0400 (Eastern Daylight Time) and Milliseconds: 734
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:29 GMT-0400 (Eastern Daylight Time) and Milliseconds: 750
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:29 GMT-0400 (Eastern Daylight Time) and Milliseconds: 752
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:32 GMT-0400 (Eastern Daylight Time) and Milliseconds: 767
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:32 GMT-0400 (Eastern Daylight Time) and Milliseconds: 769
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:35 GMT-0400 (Eastern Daylight Time) and Milliseconds: 784
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:35 GMT-0400 (Eastern Daylight Time) and Milliseconds: 785
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:38 GMT-0400 (Eastern Daylight Time) and Milliseconds: 797
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:38 GMT-0400 (Eastern Daylight Time) and Milliseconds: 798
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:41 GMT-0400 (Eastern Daylight Time) and Milliseconds: 811
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:41 GMT-0400 (Eastern Daylight Time) and Milliseconds: 812
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:44 GMT-0400 (Eastern Daylight Time) and Milliseconds: 825
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:44 GMT-0400 (Eastern Daylight Time) and Milliseconds: 826
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:47 GMT-0400 (Eastern Daylight Time) and Milliseconds: 837
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:47 GMT-0400 (Eastern Daylight Time) and Milliseconds: 838
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 851
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 852
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:53 GMT-0400 (Eastern Daylight Time) and Milliseconds: 865
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:53 GMT-0400 (Eastern Daylight Time) and Milliseconds: 866
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:56 GMT-0400 (Eastern Daylight Time) and Milliseconds: 877
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:56 GMT-0400 (Eastern Daylight Time) and Milliseconds: 878
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:59 GMT-0400 (Eastern Daylight Time) and Milliseconds: 891
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:14:59 GMT-0400 (Eastern Daylight Time) and Milliseconds: 892
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:02 GMT-0400 (Eastern Daylight Time) and Milliseconds: 906
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:02 GMT-0400 (Eastern Daylight Time) and Milliseconds: 907
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:05 GMT-0400 (Eastern Daylight Time) and Milliseconds: 921
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:05 GMT-0400 (Eastern Daylight Time) and Milliseconds: 922
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:08 GMT-0400 (Eastern Daylight Time) and Milliseconds: 935
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:08 GMT-0400 (Eastern Daylight Time) and Milliseconds: 936
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:11 GMT-0400 (Eastern Daylight Time) and Milliseconds: 947
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:11 GMT-0400 (Eastern Daylight Time) and Milliseconds: 948
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 961
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:14 GMT-0400 (Eastern Daylight Time) and Milliseconds: 962
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 975
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:17 GMT-0400 (Eastern Daylight Time) and Milliseconds: 977
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 987
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:20 GMT-0400 (Eastern Daylight Time) and Milliseconds: 988
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:24 GMT-0400 (Eastern Daylight Time) and Milliseconds: 1
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:24 GMT-0400 (Eastern Daylight Time) and Milliseconds: 2
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:27 GMT-0400 (Eastern Daylight Time) and Milliseconds: 15
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:27 GMT-0400 (Eastern Daylight Time) and Milliseconds: 17
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:30 GMT-0400 (Eastern Daylight Time) and Milliseconds: 30
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:30 GMT-0400 (Eastern Daylight Time) and Milliseconds: 31
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:33 GMT-0400 (Eastern Daylight Time) and Milliseconds: 44
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:33 GMT-0400 (Eastern Daylight Time) and Milliseconds: 45
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:36 GMT-0400 (Eastern Daylight Time) and Milliseconds: 58
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:36 GMT-0400 (Eastern Daylight Time) and Milliseconds: 60
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:39 GMT-0400 (Eastern Daylight Time) and Milliseconds: 73
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:39 GMT-0400 (Eastern Daylight Time) and Milliseconds: 74
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:42 GMT-0400 (Eastern Daylight Time) and Milliseconds: 88
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:42 GMT-0400 (Eastern Daylight Time) and Milliseconds: 89
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:45 GMT-0400 (Eastern Daylight Time) and Milliseconds: 102
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:45 GMT-0400 (Eastern Daylight Time) and Milliseconds: 104
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 121
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 122
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:51 GMT-0400 (Eastern Daylight Time) and Milliseconds: 136
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:51 GMT-0400 (Eastern Daylight Time) and Milliseconds: 137
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:54 GMT-0400 (Eastern Daylight Time) and Milliseconds: 154
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:54 GMT-0400 (Eastern Daylight Time) and Milliseconds: 155
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:57 GMT-0400 (Eastern Daylight Time) and Milliseconds: 168
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:15:57 GMT-0400 (Eastern Daylight Time) and Milliseconds: 169
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:00 GMT-0400 (Eastern Daylight Time) and Milliseconds: 182
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:00 GMT-0400 (Eastern Daylight Time) and Milliseconds: 183
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:03 GMT-0400 (Eastern Daylight Time) and Milliseconds: 197
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:03 GMT-0400 (Eastern Daylight Time) and Milliseconds: 198
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:06 GMT-0400 (Eastern Daylight Time) and Milliseconds: 211
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:06 GMT-0400 (Eastern Daylight Time) and Milliseconds: 212
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:09 GMT-0400 (Eastern Daylight Time) and Milliseconds: 224
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:09 GMT-0400 (Eastern Daylight Time) and Milliseconds: 225
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:12 GMT-0400 (Eastern Daylight Time) and Milliseconds: 238
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:12 GMT-0400 (Eastern Daylight Time) and Milliseconds: 239
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:15 GMT-0400 (Eastern Daylight Time) and Milliseconds: 251
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:15 GMT-0400 (Eastern Daylight Time) and Milliseconds: 261
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:18 GMT-0400 (Eastern Daylight Time) and Milliseconds: 275
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:18 GMT-0400 (Eastern Daylight Time) and Milliseconds: 276
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:21 GMT-0400 (Eastern Daylight Time) and Milliseconds: 290
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:21 GMT-0400 (Eastern Daylight Time) and Milliseconds: 291
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:24 GMT-0400 (Eastern Daylight Time) and Milliseconds: 306
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:24 GMT-0400 (Eastern Daylight Time) and Milliseconds: 307
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:27 GMT-0400 (Eastern Daylight Time) and Milliseconds: 321
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:27 GMT-0400 (Eastern Daylight Time) and Milliseconds: 323
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:30 GMT-0400 (Eastern Daylight Time) and Milliseconds: 337
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:30 GMT-0400 (Eastern Daylight Time) and Milliseconds: 338
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:33 GMT-0400 (Eastern Daylight Time) and Milliseconds: 352
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:33 GMT-0400 (Eastern Daylight Time) and Milliseconds: 353
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:36 GMT-0400 (Eastern Daylight Time) and Milliseconds: 367
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:36 GMT-0400 (Eastern Daylight Time) and Milliseconds: 368
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:39 GMT-0400 (Eastern Daylight Time) and Milliseconds: 382
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:39 GMT-0400 (Eastern Daylight Time) and Milliseconds: 383
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:42 GMT-0400 (Eastern Daylight Time) and Milliseconds: 396
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:42 GMT-0400 (Eastern Daylight Time) and Milliseconds: 397
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:45 GMT-0400 (Eastern Daylight Time) and Milliseconds: 411
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:45 GMT-0400 (Eastern Daylight Time) and Milliseconds: 412
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 425
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 427
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 439
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/info  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 440
+&& In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/download/all.zip  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 454
+&& After In Req Listener  /task/20812a5e-fcd2-46ab-9284-cf2ea26ef5e1/download/all.zip  Sun Oct 04 2020 23:16:48 GMT-0400 (Eastern Daylight Time) and Milliseconds: 455
+&& In Req Listener  /task/remove  Sun Oct 04 2020 23:16:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 30
+&& After In Req Listener  /task/remove  Sun Oct 04 2020 23:16:50 GMT-0400 (Eastern Daylight Time) and Milliseconds: 31
+^Cinfo: Saved nodes to disk
+info: Saved routes to disk
+info: Bye!
+root@raspberrypi:/home/pi/test/ClusterODM# exit
+exit
+
+Script done on 2020-10-04 23:17:13-04:00 [COMMAND_EXIT_CODE="0"]
